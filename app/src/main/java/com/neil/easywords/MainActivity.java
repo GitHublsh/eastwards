@@ -36,9 +36,6 @@ public class MainActivity extends AppCompatActivity {
     WordsBean wordsBean = new WordsBean();
     ExampleBean exampleBean = new ExampleBean();
 
-    String getWordsAPI = "https://api.shanbay.com/bdc/search/?word=";
-    String getWordsExampleAPI = " https://api.shanbay.com/bdc/example/?vocabulary_id=";
-
     final Handler handler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -125,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void run() {
                             String wordsID = String.valueOf(wordsBean.getData().getId());
-                            String url = getWordsExampleAPI + wordsID;
+                            String url = APIComConstans.getWordsExampleAPI + wordsID;
                             String wordsJson = null;
                             try {
                                 wordsJson = new NetUtil().getRequest(url);
@@ -214,7 +211,7 @@ public class MainActivity extends AppCompatActivity {
                                 if (mTextSearch.getText() != null) {
                                     words = mTextSearch.getText().toString();
                                 }
-                                String url = getWordsAPI + words;
+                                String url = APIComConstans.getWordsAPI + words;
                                 String wordsJson = null;
                                 try {
                                     wordsJson = new NetUtil().getRequest(url);

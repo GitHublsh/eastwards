@@ -5,4 +5,6 @@ package com.neil.easywords;
  */
 
 public class APIComConstans {
+    public static String getWordsAPI = "https://api.shanbay.com/bdc/search/?word=";
+    public static String getWordsExampleAPI = " https://api.shanbay.com/bdc/example/?vocabulary_id=";
 }
