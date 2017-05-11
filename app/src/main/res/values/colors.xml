@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--此处需要统一color命名-->
+    <color name="Color_A">#333333</color>  <!--主颜色 黑-->
+    <color name="Color_B">#858585</color>  <!-- 主颜色 灰-->
+    <color name="Color_C">#ff4c6a</color>  <!-- 主颜色 红-->
+    <color name="Color_D">#2a9dff</color>  <!-- 主颜色 蓝-->
+
+    <color name="Color_E">#18b8aa</color>  <!-- 辅颜色 E-->
+    <color name="Color_F">#f1474e</color>  <!--  辅颜色 F-->
+    <color name="Color_G">#fd05c6</color>  <!--  辅颜色 G-->
+
+    <color name="Color_H">#0078ff</color>  <!--  辅颜色 H-->
+    <color name="Color_L">#02c562</color>  <!--  辅颜色 L-->
+    <color name="Color_J">#f2f2f2</color>  <!--  辅颜色 J 背景颜色-->
+
+    <color name="Color_M">#000000</color>  <!--  字体 栏目列表标题 -->
+    <color name="Color_N">#7a888a</color>  <!--  点缀字体 标题颜色 -->
+    <color name="Color_P">#273238</color>  <!--  点缀字体 具体内容 -->
+    <color name="Color_O">#a6a6a6</color>  <!--  字体 input -->
+    <color name="Color_I">#bfc2d1</color>  <!--  登录 edittext-->
+    <color name="Color_K">#419ada</color>  <!--  我 浅蓝色-->
+
+    <color name="Color_Q">#f1f2f8</color>  <!--  筛选和排序背景 -->
+    <color name="Color_W">#f7f7f7</color>  <!--  妥投背景 -->
+    <color name="Color_X">#cbcbcb</color>  <!--  扫描收件界面字体颜色 -->
+
+    <color name="Color_S">#c2c2c2</color>  <!--  扫描收件界面字体颜色 -->
+    <color name="Color_T">#666666</color>  <!--  扫描收件界面字体颜色 -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="orange">#fffbdd</color>
+    <color name="half_white">#7fffffff</color>
+    <color name="line">#d3d3d3</color>
+    <color name="border">#8f8f8f</color>
+    <color name="transparent">#00000000</color>
+    <color name="fuzzy_transparent_white">#d8dddee6</color>
+    <color name="transparent_white_50">#7f000000</color>
+    <color name="transparent_white_80">#bf000000</color>
+    <color name="transparent_Color_B_press_50">#7fededed</color>
+
+    <color name="Color_B_press">#ededed</color>   <!-- 主颜色 灰 按下效果-->
+    <color name="Color_C_press">#df2343</color>         <!-- 主颜色 红 按下效果-->
+    <color name="Color_D_press">#166fbb</color>         <!-- 主颜色 蓝 按下效果-->
+
+    <color name="Color_Y">#f8f9fa</color>
+    <color name="Color_U">#ffa200</color>
+    <color name="Color_V">#ececec</color>
+    <color name="Color_Zhong">#dfb5a1</color>   <!-- 棕色 -->
+
+
+    <!-- 任务-->
+    <color name="task_detail_remark_bg">#fbe0aa</color>
+    <color name="task_detail_remark_fontcolor">#c07a1b</color>
+    <color name="title_unchecked_fontcolor">#4e4e4e</color>
+    <color name="task_cutline2_color">#eaeaea</color>
+    <color name="task_list_bgcolor">#efefef</color>
+    <color name="input_scan">#666666</color>
+    <color name="exception_code">#cccccc</color>
+    <color name="border_blue">#0072ff</color>
+
+    <!-- -->
+    <color name="receive_papter_guide_bg">#7fffffff</color>
+
+    <!--lrg calendar picker start-->
+    <color name="calendar_active_month_bg">#fff5f7f9</color>
+    <color name="calendar_bg">#ffffffff</color>
+    <color name="calendar_divider">#ffbababa</color>
+    <color name="calendar_inactive_month_bg">#ffd7d9db</color>
+    <color name="calendar_selected_day_bg">#ff379bff</color>
+    <color name="calendar_highlighted_day_bg">#ccffcc</color>
+    <color name="calendar_selected_range_bg">#ff96caff</color>
+
+    <color name="calendar_text_inactive">@color/transparent</color>
+    <color name="calendar_text_active">#8f000000</color>
+    <color name="calendar_text_selected">#ffffffff</color>
+    <color name="calendar_text_unselectable">#7f778088</color>
+    <color name="calendar_text_highlighted">#ff778088</color>
+
+    <!--<color name="calendar_text_inactive">#40778088</color>-->
+    <!--<color name="calendar_text_active">#ff778088</color>-->
+    <!--<color name="calendar_text_selected">#ffffffff</color>-->
+    <!--<color name="calendar_text_unselectable">#7f778088</color>-->
+    <!--<color name="calendar_text_highlighted">#ff778088</color>-->
+
+    <color name="custom_header_text">#85B100</color>
+    <color name="custom_selected">#A8D324</color>
+    <color name="custom_background">#F0F8DB</color>
+    <color name="custom_background_today">#FF9105</color>
+    <color name="custom_background_disabled">#F0F8DB</color>
+    <color name="custom_text_selected">#FFFFFFFF</color>
+    <color name="custom_text_inactive">#7f778088</color>
+    <!--lrg calendar picker end-->
+
+    <color name="shadow">#cc222222</color>
+
+    <!-- ghb add -->
+    <color name="custom_change_contacts_dialog_text_color">#4c4c4c</color>
+    <color name="delivery_electron_picture_upload_color">#dedede</color>
+    <!-- ghb end -->
+
+    <color name="pickup_code">#2a7fff</color>
+    <!-- lcj add -->
+    <color name="msg_emote_divider">#ffa1a1a1</color>
+    <color name="base_color_text_black">#3e3e39</color>
+    <color name="edit_enable_color">#E7E7E7</color>
+    <!-- lcj end -->
+    <color name="bg_chat_time">#D4D4D4</color>
+    <color name="text_chat_list_msg">#878787</color>
+    <color name="bg_chat_list_divider">#e5e5e5</color>
+    <color name="bg_chat_notify_line">#cfcfcf</color>
+    <color name="text_handover_Waybill">#565656</color>
+    <color name="dialog_handover_bottom_line">#A7B0B8</color>
+
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+
+    <color name="ksw_md_solid_shadow">#33000000</color>
+
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+</resources>

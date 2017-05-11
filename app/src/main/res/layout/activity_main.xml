@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.neil.easywords.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lltoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y100"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgOpen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/eye"/>
+
+        <TextView
+            android:id="@+id/texthistory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right|center_vertical"
+            android:paddingRight="@dimen/x40"
+            android:text="忘记历史"
+            android:textSize="@dimen/FontSize_50"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llhorizontalLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lltoolbar"
+        android:orientation="vertical">
+
+        <include layout="@layout/horizontal_line"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/text_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lltoolbar"
+        android:hint="Search"/>
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_search"
+        android:text="search"/>
+
+    <Button
+
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_search"
+        android:text="Add to Forget"/>
+
+    <ImageView
+        android:id="@+id/image_clear"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/lltoolbar"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/bg_close_normal"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button_add">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/show_example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="查看例句>>>"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textExample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/FontSize_46"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

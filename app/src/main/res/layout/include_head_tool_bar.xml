@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:id="@+id/toolbar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="@dimen/y166"
+                                   android:background="@color/white">
+
+    <TextView
+        android:id="@+id/text_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:background="@drawable/ic_back"
+        android:text=""
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/x125"
+        android:src="@drawable/ic_back"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:maxEms="10"
+        android:singleLine="true"
+        android:textColor="@color/Color_A"
+        android:textSize="@dimen/FontSize_56"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_right"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|right"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/x50"
+        android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+        android:text=""
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imgRight"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center|right"
+        android:paddingLeft="@dimen/x65"
+        android:paddingRight="@dimen/abc_action_bar_content_inset_material"
+        android:visibility="gone" />
+</android.support.v7.widget.Toolbar>
+

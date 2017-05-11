@@ -1,0 +1,274 @@
+<resources>
+    <!--文字大小规范-->
+    <dimen name="FontSize_10">@dimen/x10</dimen>
+    <dimen name="FontSize_11">@dimen/x11</dimen>
+    <dimen name="FontSize_12">@dimen/x12</dimen>
+    <dimen name="FontSize_13">@dimen/x13</dimen>
+    <dimen name="FontSize_14">@dimen/x14</dimen>
+    <dimen name="FontSize_15">@dimen/x15</dimen>
+    <dimen name="FontSize_16">@dimen/x16</dimen>
+    <dimen name="FontSize_17">@dimen/x17</dimen>
+    <dimen name="FontSize_18">@dimen/x18</dimen>
+    <dimen name="FontSize_19">@dimen/x19</dimen>
+
+
+    <dimen name="FontSize_20">@dimen/x20</dimen>
+    <dimen name="FontSize_21">@dimen/x21</dimen>
+    <dimen name="FontSize_22">@dimen/x22</dimen>
+    <dimen name="FontSize_23">@dimen/x23</dimen>
+    <dimen name="FontSize_24">@dimen/x24</dimen>
+    <dimen name="FontSize_25">@dimen/x25</dimen>
+    <dimen name="FontSize_26">@dimen/x26</dimen>
+    <dimen name="FontSize_27">@dimen/x27</dimen>
+    <dimen name="FontSize_28">@dimen/x28</dimen>
+    <dimen name="FontSize_29">@dimen/x29</dimen>
+
+    <dimen name="FontSize_30">@dimen/x30</dimen>
+    <dimen name="FontSize_31">@dimen/x31</dimen>
+    <dimen name="FontSize_32">@dimen/x32</dimen>
+    <dimen name="FontSize_33">@dimen/x33</dimen>
+    <dimen name="FontSize_34">@dimen/x34</dimen>
+    <dimen name="FontSize_35">@dimen/x35</dimen>
+    <dimen name="FontSize_36">@dimen/x36</dimen>
+    <dimen name="FontSize_37">@dimen/x37</dimen>
+    <dimen name="FontSize_38">@dimen/x38</dimen>
+    <dimen name="FontSize_39">@dimen/x39</dimen>
+
+
+    <dimen name="FontSize_40">@dimen/x40</dimen>
+    <dimen name="FontSize_41">@dimen/x41</dimen>
+    <dimen name="FontSize_42">@dimen/x42</dimen>
+    <dimen name="FontSize_43">@dimen/x43</dimen>
+    <dimen name="FontSize_44">@dimen/x44</dimen>
+    <dimen name="FontSize_45">@dimen/x45</dimen>
+    <dimen name="FontSize_46">@dimen/x46</dimen>
+    <dimen name="FontSize_47">@dimen/x47</dimen>
+    <dimen name="FontSize_48">@dimen/x48</dimen>
+    <dimen name="FontSize_49">@dimen/x49</dimen>
+
+    <dimen name="FontSize_50">@dimen/x50</dimen>
+    <dimen name="FontSize_51">@dimen/x51</dimen>
+    <dimen name="FontSize_52">@dimen/x52</dimen>
+    <dimen name="FontSize_53">@dimen/x53</dimen>
+    <dimen name="FontSize_54">@dimen/x54</dimen>
+    <dimen name="FontSize_55">@dimen/x55</dimen>
+    <dimen name="FontSize_56">@dimen/x56</dimen>
+    <dimen name="FontSize_57">@dimen/x57</dimen>
+    <dimen name="FontSize_58">@dimen/x58</dimen>
+    <dimen name="FontSize_59">@dimen/x59</dimen>
+    <dimen name="FontSize_60">@dimen/x60</dimen>
+    <dimen name="FontSize_61">@dimen/x61</dimen>
+    <dimen name="FontSize_62">@dimen/x62</dimen>
+    <dimen name="FontSize_63">@dimen/x63</dimen>
+    <dimen name="FontSize_64">@dimen/x64</dimen>
+    <dimen name="FontSize_65">@dimen/x65</dimen>
+    <dimen name="FontSize_66">@dimen/x66</dimen>
+    <dimen name="FontSize_67">@dimen/x67</dimen>
+    <dimen name="FontSize_68">@dimen/x68</dimen>
+    <dimen name="FontSize_69">@dimen/x69</dimen>
+    <dimen name="FontSize_70">@dimen/x70</dimen>
+    <dimen name="FontSize_71">@dimen/x71</dimen>
+    <dimen name="FontSize_72">@dimen/x72</dimen>
+    <dimen name="FontSize_73">@dimen/x73</dimen>
+    <dimen name="FontSize_74">@dimen/x74</dimen>
+    <dimen name="FontSize_75">@dimen/x75</dimen>
+    <dimen name="FontSize_76">@dimen/x76</dimen>
+    <dimen name="FontSize_77">@dimen/x77</dimen>
+    <dimen name="FontSize_78">@dimen/x78</dimen>
+    <dimen name="FontSize_79">@dimen/x79</dimen>
+
+
+    <dimen name="toolbar_height">@dimen/y166</dimen>
+
+    <!-- 宽高间距 -->
+    <dimen name="sf_320">320dp</dimen>
+    <dimen name="sf_vi_margin">15dp</dimen>
+    <dimen name="sf_navigation_bar_height">50dp</dimen>
+    <dimen name="sf_tabar_height">50dp</dimen>
+    <dimen name="sf_margin_1">1dp</dimen>
+    <dimen name="sf_margin_1_5">1.5dp</dimen>
+    <dimen name="sf_margin_2">2dp</dimen>
+    <dimen name="sf_margin_2_5">2.5dp</dimen>
+    <dimen name="sf_margin_3">3dp</dimen>
+    <dimen name="sf_margin_4">4dp</dimen>
+    <dimen name="sf_margin_5">5dp</dimen>
+    <dimen name="sf_margin_5_5">5.5dp</dimen>
+    <dimen name="sf_margin_6">6dp</dimen>
+    <dimen name="sf_margin_7">7dp</dimen>
+    <dimen name="sf_margin_7_5">7.5dp</dimen>
+    <dimen name="sf_margin_8">8dp</dimen>
+    <dimen name="sf_margin_8_5">8.5dp</dimen>
+    <dimen name="sf_margin_9">9dp</dimen>
+    <dimen name="sf_margin_10">10dp</dimen>
+    <dimen name="sf_margin_11">11dp</dimen>
+    <dimen name="sf_margin_12">12dp</dimen>
+    <dimen name="sf_margin_12_5">12.5dp</dimen>
+    <dimen name="sf_margin_13">13dp</dimen>
+    <dimen name="sf_margin_14">14dp</dimen>
+    <dimen name="sf_margin_15">15dp</dimen>
+    <dimen name="sf_margin_17">17dp</dimen>
+    <dimen name="sf_margin_20">20dp</dimen>
+    <dimen name="sf_margin_21">21dp</dimen>
+    <dimen name="sf_margin_22">22dp</dimen>
+    <dimen name="sf_margin_24">24dp</dimen>
+    <dimen name="sf_margin_25">25dp</dimen>
+    <dimen name="sf_margin_26_5">26.5dp</dimen>
+    <dimen name="sf_margin_27_5">27.5dp</dimen>
+    <dimen name="sf_margin_29">29dp</dimen>
+    <dimen name="sf_margin_30">30dp</dimen>
+    <dimen name="sf_margin_32">32dp</dimen>
+    <dimen name="sf_margin_34">34dp</dimen>
+    <dimen name="sf_margin_35">35dp</dimen>
+    <dimen name="sf_margin_40">40dp</dimen>
+    <dimen name="sf_margin_65">65dp</dimen>
+    <dimen name="sf_margin_70">70dp</dimen>
+    <dimen name="sf_margin_80">80dp</dimen>
+    <dimen name="sf_90">90dp</dimen>
+    <dimen name="sf_1">1px</dimen>
+    <dimen name="sf_corner_radius">4dp</dimen>
+    <dimen name="sf_px_2">2px</dimen>
+    <dimen name="sf_3">3dp</dimen>
+    <dimen name="sf_4">4dp</dimen>
+    <dimen name="sf_5">5dp</dimen>
+    <dimen name="sf_6">6dp</dimen>
+    <dimen name="sf_7">7dp</dimen>
+    <dimen name="sf_8">8dp</dimen>
+    <dimen name="sf_9">9dp</dimen>
+    <dimen name="sf_10">10dp</dimen>
+    <dimen name="sf_11">11dp</dimen>
+    <dimen name="sf_12">12dp</dimen>
+    <dimen name="sf_13">13dp</dimen>
+    <dimen name="sf_14">14dp</dimen>
+    <dimen name="sf_15">15dp</dimen>
+    <dimen name="sf_16">16dp</dimen>
+    <dimen name="sf_16_5">16.5dp</dimen>
+    <dimen name="sf_18">18dp</dimen>
+    <dimen name="sf_20">20dp</dimen>
+    <dimen name="sf_21">21dp</dimen>
+    <dimen name="sf_22">22dp</dimen>
+    <dimen name="sf_23">23dp</dimen>
+    <dimen name="sf_24">24dp</dimen>
+    <dimen name="sf_25">25dp</dimen>
+    <dimen name="sf_27">27dp</dimen>
+    <dimen name="sf_31">31dp</dimen>
+    <dimen name="sf_30">30dp</dimen>
+    <dimen name="sf_33">33dp</dimen>
+    <dimen name="sf_34">34dp</dimen>
+    <dimen name="sf_35">35dp</dimen>
+    <dimen name="sf_37">37dp</dimen>
+    <dimen name="sf_39">39dp</dimen>
+    <dimen name="sf_40">40dp</dimen>
+    <dimen name="sf_41">41dp</dimen>
+    <dimen name="sf_43">43dip</dimen>
+    <dimen name="sf_45">45dp</dimen>
+    <dimen name="sf_50">50dp</dimen>
+    <dimen name="sf_51">51dp</dimen>
+    <dimen name="sf_55">55dp</dimen>
+    <dimen name="sf_56">56dp</dimen>
+    <dimen name="sf_57">57dp</dimen>
+    <dimen name="sf_60">60dp</dimen>
+    <dimen name="sf_62">62dp</dimen>
+    <dimen name="sf_64">64dp</dimen>
+    <dimen name="sf_65">65dp</dimen>
+    <dimen name="sf_68">68dp</dimen>
+    <dimen name="sf_70">70dp</dimen>
+    <dimen name="sf_75">75dp</dimen>
+    <dimen name="sf_77">77dp</dimen>
+    <dimen name="sf_80">80dp</dimen>
+    <dimen name="sf_84">84dp</dimen>
+    <dimen name="sf_86">86dp</dimen>
+    <dimen name="sf_100">100dp</dimen>
+    <dimen name="sf_105">105dp</dimen>
+    <dimen name="sf_110">110dp</dimen>
+    <dimen name="sf_118">118dp</dimen>
+    <dimen name="sf_120">120dp</dimen>
+    <dimen name="sf_125">125dp</dimen>
+    <dimen name="sf_145">145dp</dimen>
+    <dimen name="sf_150">150dp</dimen>
+    <dimen name="sf_160">160dp</dimen>
+    <dimen name="sf_165">165dp</dimen>
+    <dimen name="sf_170">170dp</dimen>
+    <dimen name="sf_190">190dp</dimen>
+    <dimen name="sf_200">200dp</dimen>
+    <dimen name="sf_210">210dp</dimen>
+    <dimen name="sf_215">215dp</dimen>
+    <dimen name="sf_250">250dp</dimen>
+    <dimen name="sf_300">300dp</dimen>
+    <dimen name="sf_330">330dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="sf_size_10">10sp</dimen>
+    <dimen name="sf_size_11">11sp</dimen>
+    <dimen name="sf_size_12">12sp</dimen>
+    <dimen name="sf_size_13">13sp</dimen>
+    <dimen name="sf_size_14">14sp</dimen>
+    <dimen name="sf_size_15">15sp</dimen>
+    <dimen name="sf_size_16">16sp</dimen>
+    <dimen name="sf_size_17">17sp</dimen>
+    <dimen name="sf_size_18">18sp</dimen>
+    <dimen name="sf_size_20">20sp</dimen>
+    <dimen name="sf_size_23">23sp</dimen>
+    <dimen name="sf_size_27">27sp</dimen>
+    <dimen name="sf_size_30">30sp</dimen>
+
+    <dimen name="fab_size_normal">40dp</dimen>
+    <dimen name="fab_size_mini">30dp</dimen>
+    <dimen name="fab_shadow_size">12dp</dimen>
+
+    <dimen name="fab_scroll_threshold">4dp</dimen>
+    <dimen name="fab_elevation_lollipop">8dp</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+
+    <dimen name="scan_box_height">@dimen/y713</dimen>
+    <dimen name="scan_content_height">@dimen/y983</dimen>
+    <dimen name="scan_content_height_qr">@dimen/y800</dimen>
+    <dimen name="scan_content_margin_top">@dimen/y879</dimen>
+    <dimen name="convenience_store_pop_height">@dimen/y1130</dimen>
+
+    <!--lrg add for calendar picker start -->
+    <dimen name="calendar_day_headers_paddingbottom">@dimen/y10</dimen>
+    <dimen name="calendar_month_topmargin">@dimen/y30</dimen>
+    <dimen name="calendar_month_title_bottommargin">@dimen/y10</dimen>
+    <dimen name="calendar_text_medium">18sp</dimen>
+    <dimen name="calendar_text_small">14sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--lrg add for calendar picker end -->
+
+    <!--chat add-->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="base_action_bar_height">@dimen/y48</dimen>
+    <dimen name="base_action_bar_title_size">22.0sp</dimen>
+    <dimen name="register_margin">@dimen/x10</dimen>
+    <dimen name="base_scrollview_top_height">46dp</dimen>
+    <dimen name="tab_padding_top_bottom">@dimen/y15</dimen>
+    <dimen name="tab_padding_left_right">@dimen/x40</dimen>
+    <dimen name="tab_height">@dimen/y48</dimen>
+    <dimen name="base_line_width_1">@dimen/x1</dimen>
+    <dimen name="base_line_width_2">@dimen/x2</dimen>
+    <dimen name="base_line_width">@dimen/x1</dimen>
+
+    <dimen name="time_line_line_left_margin">@dimen/x24</dimen>
+    <dimen name="time_line_line_width">@dimen/x2</dimen>
+    <dimen name="time_line_content_left_margin">@dimen/x52</dimen>
+    <dimen name="time_line_content_right_margin">@dimen/x7</dimen>
+
+    <dimen name="score_item_height">@dimen/y100</dimen>
+    <dimen name="message_top_height">@dimen/y70</dimen>
+
+    <dimen name="margin_chat_top">@dimen/y5</dimen>
+    <!--chat end-->
+
+    <dimen name="ksw_md_thumb_ripple_size">42dp</dimen>
+    <dimen name="ksw_md_thumb_solid_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_top">11dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_inset_bottom">10dp</dimen>
+
+    <dimen name="ksw_md_thumb_solid_size">20dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_size">21dp</dimen>
+    <dimen name="ksw_md_thumb_shadow_offset">2dp</dimen>
+</resources>
